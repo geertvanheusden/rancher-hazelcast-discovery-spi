@@ -8,19 +8,6 @@
 	<artifactId>rancher-hazelcast-discovery-spi</artifactId>
 	<version>2.0.0</version>
 
-	<distributionManagement>
-		<repository>
-			<id>nexus</id>
-			<layout>default</layout>
-			<url>https://repo.aviovision.com/repository/maven-releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>nexus</id>
-			<layout>default</layout>
-			<url>https://repo.aviovision.com/repository/maven-snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<hazelcast.version>4.0.1</hazelcast.version>
